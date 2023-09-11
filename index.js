@@ -70,6 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     document.getElementById("inputPaste").addEventListener("paste", function(){
-        alert("Anda telaah men-paste sesuatu...");
+        alert("Anda telah men-paste sesuatu...");
     });
 });
