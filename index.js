@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
         alert("Selamat! Captcha Anda Lolos :D");
       } else {
         alert("Captcha Anda belum tepat :(");
-        event.preventDefault();
         document.getElementById("submitButton").setAttribute("disabled","");
       }
+      event.preventDefault();
     });
 });
